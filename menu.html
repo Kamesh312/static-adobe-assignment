@@ -1,0 +1,39 @@
+<html>
+
+<head>
+	<script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+	<link rel="stylesheet" href="menu.css" />
+	<script>
+		$(document).ready(function() {
+		        $("#menu").showMenuItems({
+		          url:
+		            "https://jsonblob.com/api/jsonBlob/6766327f-607d-11e9-95ef-9bcb815ba4a4"
+		        });
+		      });
+	</script>
+</head>
+
+<body>
+	<header class="main-header">
+		<ul class="menu"></ul>
+		<div class="dropdown-holder">
+			<div class="dropdown__arrow"></div>
+			<div class="dropdown__bg">
+				<div class="dropdown__bg-bottom"></div>
+			</div>
+			<div class="dropdown__wrap">
+			 <!-- --------- Menu comes here ----------->
+			</div>
+		</div>
+	</header>
+	<section>
+		<!-- ----------- section body comes here ------------- -->
+	</section>
+	<footer>
+		<!-- -----------  footer comes here ------------- -->
+	</footer>
+</body>
+<script src="menu.js" ></script>
+<script src="menu_parse.js" defer></script>
+
+</html>
